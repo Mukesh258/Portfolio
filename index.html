@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Portfolio</a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="animate-text">Hi, I'm <span class="highlight">Mukesh</span></h1>
+                <h2 class="animate-text delay-1">Web Developer & Designer</h2>
+                <p class="animate-text delay-2">I create beautiful, functional websites that help businesses grow.</p>
+                <div class="hero-buttons animate-text delay-3">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image animate-image">
+                <img src="./IMG-20240609-WA0034.jpg" alt="Profile Image">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./50423.jpg" alt="About Me">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>I’m Mukesh — a web developer fueled by 1 years of crafting clean, modern, and responsive websites. Front-end is my playground, and UI/UX? That’s my artform.</p>
+                    <p>I don’t just build sites; I shape digital experiences that hit different — elegant, functional, and user-focused. My mission? To bridge brands and people through intuitive design and purposeful code. Because good design doesn’t just look good — it works hard behind the scenes.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h4>Education</h4>
+                            <p>B.Tech in Computer Science</p>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-briefcase"></i>
+                            <h4>Experience</h4>
+                            <p>2+ Years</p>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Location</h4>
+                            <p>Andhra Pradesh, INDIA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Design</button>
+                <button class="filter-btn" data-filter="app">App Development</button>
+                <button class="filter-btn" data-filter="ui">UI/UX Design</button>
+            </div>
+            <div class="project-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="./Screenshot 2025-03-27 153900.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Student Registration Form</h3>
+                        <p>A fully responsive Registration Form.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://mukesh258.github.io/Student-Registration-Form/" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="app">
+                    <div class="project-img">
+                        <img src="./Screenshot 2025-03-27 161817.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather Forecast</h3>
+                        <p>Predicting Today, Preparing Tomorrow.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://mukesh258.github.io/Weather-Forecast-/" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card" data-category="ui">
+                    <div class="project-img">
+                        <img src="./Screenshot 2025-03-27 162429.png" alt="Project 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Netra</h3>
+                        <p>Ai based Application.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://mukesh258.github.io/Netra/" class="btn btn-sm">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skills-text">
+                    <h3>Technical Skills</h3>
+                    <p>I've worked with a variety of technologies and tools throughout my career. Here are some of the key skills I've developed:</p>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML5</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h4>CSS</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js"></i>
+                        <h4>JavaScript</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h4>React</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 20%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h4>MySQL</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-c"></i>
+                        <h4>C</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h4>Python</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-bootstrap"></i>
+                        <h4>Bootstrap</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-php"></i>
+                        <h4>PhP</h4>
+                        <div class="skill-level">
+                            <div class="skill-bar" style="width: 35%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Mukesh</h3>
+                    <p>Web Developer & Designer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Me On</h4>
+                    <div class="social-icons">
+                        <a href="https://github.com/Mukesh258"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/u-mukesh-200336289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Mukesh. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
